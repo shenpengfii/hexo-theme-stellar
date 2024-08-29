@@ -42,12 +42,13 @@ _common_root()
 
 _light_root()
   --site-bg: hsl($color-background-h, $color-background-s, $color-background-l)
-  --card: hsl($color-block-h, $color-block-s, 97) // 主页文章卡片色彩
+  // --card: hsl($color-block-h, $color-block-s, $color-block-l) // 主页文章卡片色彩
+  --card: rgba(255, 255, 255, 0.9)
   --block: hsl($color-block-h, $color-block-s, $color-block-l) // 块色彩和Banner色彩
-  --block-border: hsl($color-block-h, $color-block-s, 90)
-  --block-hover: hsl($color-block-h, $color-block-s, 92)
+  --block-border: hsl($color-block-h, $color-block-s, $color-block-l)
+  --block-hover: hsl($color-block-h, $color-block-s, $color-block-l)
   --theme-link-opa: rgba($color-link, 0.2)
-  --leftbar-bg: hsl($color-block-h, $color-block-s, 90)
+  --leftbar-bg: hsl($color-block-h, $color-block-s, $color-block-l)
   --alpha20: rgba(white, 0.2)
   --alpha50: rgba(white, 0.5)
   --alpha60: rgba(white, 0.6)
